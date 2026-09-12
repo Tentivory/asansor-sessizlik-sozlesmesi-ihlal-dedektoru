@@ -1,0 +1,10 @@
+name: Sessizlik İhlali Bildirimi
+description: Asansörde konuşan birini resmi olarak şikayet edin
+body:
+  - type: textarea
+    id: ifade
+    attributes:
+      label: Sanığın söylediği cümle
+      description: Lütfen küçük harfle ve utana sıkıla yazın
+    validations:
+      required: true
